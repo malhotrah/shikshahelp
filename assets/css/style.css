@@ -1,0 +1,221 @@
+/* infoboxes */
+div.box-download {
+    width: 100%;
+    float: left;
+}
+
+div.box-download-content {
+    background: url("../images/box-download.png") no-repeat 15px 16px #E3F4DE;
+    border: 1px solid #a4d794;
+    color: #599847;
+    padding: 20px 15px 20px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    font-size: 11pt;
+}
+
+div.box-download a {
+    color: #599847;
+    text-decoration: none;
+}
+
+div.box-download a:hover {
+    color: #599847;
+    text-decoration: underline;
+}
+
+div.box-information {
+    width: 100%;
+    float: left;
+}
+
+.success {
+    background: url("../images/icon-box-success.png") no-repeat scroll 12px 8px #E3EBC6;
+    border-color: #C2D288;
+    border-style: solid;
+    border-width: 1px 1px 1px 4px;
+    color: #8FA442;
+}
+
+.contact_success{
+
+    text-align: center;
+    display:inline-block;
+}
+
+.error {
+    background: url("../images/icon-box-error.png") no-repeat scroll 10px 9px #F9E5E6;
+    border-color: #F7C7C9;
+    border-style: solid;
+    border-width: 1px 1px 1px 4px;
+    color: #B3696C;
+}
+
+div.box-information-content {
+    background: url("../images/box-info.png") no-repeat 15px 16px #DEEEF7;
+    border: 1px solid #8fbed9;
+    color: #2F81B0;
+    padding: 20px 15px 20px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    font-size: 11pt;
+}
+
+div.box-information a {
+    color: #2F81B0;
+    text-decoration: none;
+}
+
+div.box-information a:hover {
+    color: #2F81B0;
+    text-decoration: underline;
+}
+
+div.box-notification {
+    width: 100%;
+    float: left;
+}
+
+div.box-notification-content {
+    background: url("../images/box-note.png") no-repeat 15px 16px #FFFBCC;
+    border: 1px solid #e0da97;
+    color: #8f8838;
+    padding: 20px 15px 20px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    font-size: 11pt;
+}
+
+div.box-notification a {
+    color: #8f8838;
+    text-decoration: none;
+}
+
+div.box-notification a:hover {
+    color: #8f8838;
+    text-decoration: underline;
+}
+
+div.box-error {
+    width: 100%;
+    float: left;
+}
+
+div.box-error-content {
+    background: url("../images/box-error.png") no-repeat 15px 16px #FFCECE;
+    border: 1px solid #e19191;
+    color: #883333;
+    padding: 20px 15px 20px 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: auto;
+    font-size: 11pt;
+}
+
+div.box-error a {
+    color: #883333;
+    text-decoration: none;
+}
+
+div.box-error a:hover {
+    color: #883333;
+    text-decoration: underline;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -60px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 60px;
+}
+#footer {
+    background-color: #333333;
+    color: #999999;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+/* Custom page CSS*/
+/*-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    /*width: auto;*/
+    /*max-width: 680px;*/
+    /*margin-top: 40px;*/
+}
+/*.container .credit {*/
+    /*margin: 20px 0;*/
+/*}*/
+
+/*body, input, button, select, textarea, .btn, label {*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-size: 14px !important;*/
+/*}*/
+
+/*.txtalign{*/
+    /*text-align: center;*/
+/*}*/
+
+/*.font20{*/
+    /*font-size: 20px;*/
+    /*line-height: 1.2;*/
+/*}*/
+
+/*body {*/
+    /*padding-top: 60px; *//* 60px to make the container go all the way to the bottom of the topbar */
+/*}*/
+
+.paper{
+    margin-top:10px;
+    background: url('../img/icon-zoom-image.png') transparent no-repeat 50% 45%;
+    background-repeat: no-repeat;
+}
+
+.paper:hover
+img{
+    opacity: 0.75;
+}
+
+.navbar-inner{
+    background-color: rgba(36, 36, 36, 0.88);
+}
+
+.error, .success, .info, .notice {
+    display: block;
+    padding: 10px 14px 11px 42px;
+}
+
+.margin-0{
+    margin-left:0px !important;
+}
